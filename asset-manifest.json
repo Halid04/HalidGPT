@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HalidGPT/static/css/main.d61e9958.css",
+    "main.js": "/HalidGPT/static/js/main.f70c6d4b.js",
+    "static/media/lightModeIcon.png": "/HalidGPT/static/media/lightModeIcon.06d0b62f768f1375dcd8.png",
+    "index.html": "/HalidGPT/index.html",
+    "main.d61e9958.css.map": "/HalidGPT/static/css/main.d61e9958.css.map",
+    "main.f70c6d4b.js.map": "/HalidGPT/static/js/main.f70c6d4b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61e9958.css",
+    "static/js/main.f70c6d4b.js"
+  ]
+}
