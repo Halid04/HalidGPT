@@ -14,7 +14,7 @@ function App() {
           ></img>
         </div>
       </nav>
-      <div className="chatInterface">f</div>
+      <div className="chatInterface"></div>
     </div>
   );
 }
