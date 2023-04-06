@@ -25,17 +25,20 @@ body {
 .logo {
   color: var(--icon-color);
   width: 80%;
+  margin-left: 20px;
 }
 
 .iconWrapper {
   width: 20%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .darkLightMode {
   width: 32px;
   height: 32px;
+  margin-right: 20px;
 }
 
 .chatInterface {
