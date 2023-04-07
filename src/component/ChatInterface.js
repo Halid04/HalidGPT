@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import sendMessageIcon from "./../images/sendMessageIcon.png";
 
 export const ChatInterface = ({ themeIcon }) => {
@@ -14,11 +15,14 @@ export const ChatInterface = ({ themeIcon }) => {
 const MessageInput = ({ themeIcon }) => {
   return (
     <form className="interfaceForm">
-      <input
+      <textarea
         className="messageInput"
-        type="text"
+        rows={1}
         placeholder="Ask something..."
-        style={{ backgroundColor: !themeIcon ? "#122C34" : "#FFFFFF" }}
+        style={{
+          backgroundColor: !themeIcon ? "#122C34" : "#FFFFFF",
+          color: !themeIcon ? "#FFFFFF" : "#000000",
+        }}
       />
       <button className="sendBtn">
         <img src={sendMessageIcon}></img>
