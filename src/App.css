@@ -4,6 +4,7 @@
   --userChat-color: #2c8475;
   --icon-color: #6c8690;
   --text-color: #ffffff;
+  --themeTransition: 0.3s;
 }
 
 html,
@@ -21,17 +22,18 @@ body {
 
 .navbar {
   display: flex;
-  background-color: var(--secondary-color);
   width: 100vw;
   height: 10vh;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  z-index: 100;
+  z-index: 1;
+  transition: var(--themeTransition);
 }
 
 .logo {
-  color: var(--icon-color);
   width: 80%;
   margin-left: 20px;
+  align-self: center;
+  transition: var(--themeTransition);
 }
 
 .iconWrapper {
@@ -41,10 +43,11 @@ body {
   justify-content: end;
 }
 
-.darkLightMode {
+.themeIcon {
   width: 32px;
   height: 32px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .chatInterface {
