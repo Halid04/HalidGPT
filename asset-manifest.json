@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HalidGPT/static/css/main.7736c519.css",
+    "main.css": "/HalidGPT/static/css/main.bf128075.css",
     "main.js": "/HalidGPT/static/js/main.b087bced.js",
     "static/media/lightModeIcon.png": "/HalidGPT/static/media/lightModeIcon.06d0b62f768f1375dcd8.png",
     "static/media/darkModeIcon.png": "/HalidGPT/static/media/darkModeIcon.41312c9f85bdb3e8517a.png",
     "static/media/sendMessageIcon.png": "/HalidGPT/static/media/sendMessageIcon.d9aa0c623656a67bf3b0.png",
     "index.html": "/HalidGPT/index.html",
-    "main.7736c519.css.map": "/HalidGPT/static/css/main.7736c519.css.map",
+    "main.bf128075.css.map": "/HalidGPT/static/css/main.bf128075.css.map",
     "main.b087bced.js.map": "/HalidGPT/static/js/main.b087bced.js.map"
   },
   "entrypoints": [
-    "static/css/main.7736c519.css",
+    "static/css/main.bf128075.css",
     "static/js/main.b087bced.js"
   ]
 }
