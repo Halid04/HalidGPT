@@ -1,10 +1,7 @@
 import lightModeIcon from "./../images/lightModeIcon.png";
 import darkModeIcon from "./../images/darkModeIcon.png";
-import { useState } from "react";
 
-export const Navbar = () => {
-  const [themeIcon, setThemeIcon] = useState(false);
-
+export const Navbar = ({ themeIcon, setThemeIcon }) => {
   return (
     <nav
       className="navbar"
