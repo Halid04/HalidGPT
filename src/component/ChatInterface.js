@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import sendMessageIcon from "./../images/sendMessageIcon.png";
 
 export const ChatInterface = ({ themeIcon }) => {
@@ -66,11 +66,18 @@ const MessageInput = ({
 };
 
 const ShowingMessages = ({ messages }) => {
+  const messagesEndRef = useRef(null);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
   return (
     <div className="showingMessages">
       {messages.map((message) => (
         <Message key={message.id} text={message.text} />
       ))}
+      <div ref={messagesEndRef} />
     </div>
   );
 };
