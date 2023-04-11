@@ -102,11 +102,13 @@ body {
   background-color: #00c5a6;
   border-radius: 200px;
   border: 0px solid rgba(0, 0, 0, 0);
+  display: grid;
+  place-items: center;
 }
 
 .sendBtn img {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
 }
 
 .showingMessages {
